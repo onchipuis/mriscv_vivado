@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI_DDR2_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI_DDR2_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="51518500000fs"></ZoomStartTime>
+      <ZoomEndTime time="51899500001fs"></ZoomEndTime>
+      <Cursor1Time time="51836000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="36" />
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_addr" type="array">
+      <obj_property name="ElementShortName">ddr2_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_ba" type="array">
+      <obj_property name="ElementShortName">ddr2_ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_ras_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_ras_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ras_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_cas_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_cas_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cas_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_we_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_we_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_we_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_ck_p" type="array">
+      <obj_property name="ElementShortName">ddr2_ck_p[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ck_p[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_ck_n" type="array">
+      <obj_property name="ElementShortName">ddr2_ck_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ck_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_cke" type="array">
+      <obj_property name="ElementShortName">ddr2_cke[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cke[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_cs_n" type="array">
+      <obj_property name="ElementShortName">ddr2_cs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_dm" type="array">
+      <obj_property name="ElementShortName">ddr2_dm[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dm[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_odt" type="array">
+      <obj_property name="ElementShortName">ddr2_odt[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_odt[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_dq" type="array">
+      <obj_property name="ElementShortName">ddr2_dq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dq[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_dqs_p" type="array">
+      <obj_property name="ElementShortName">ddr2_dqs_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dqs_p[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/ddr2_dqs_n" type="array">
+      <obj_property name="ElementShortName">ddr2_dqs_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dqs_n[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/mem_init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">mem_init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">mem_init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/Inst_DDR_AXI/ui_clk_sync_rst" type="logic">
+      <obj_property name="ElementShortName">ui_clk_sync_rst</obj_property>
+      <obj_property name="ObjectShortName">ui_clk_sync_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_DDR2_test/inst_AXI_DDR2/Inst_DDR_AXI/mmcm_locked" type="logic">
+      <obj_property name="ElementShortName">mmcm_locked</obj_property>
+      <obj_property name="ObjectShortName">mmcm_locked</obj_property>
+   </wvobject>
+</wave_config>

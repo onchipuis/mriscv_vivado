@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="XADC_REG_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="XADC_REG_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="74900000001fs"></ZoomEndTime>
+      <Cursor1Time time="285000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="21" />
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/DCLK" type="logic">
+      <obj_property name="ElementShortName">DCLK</obj_property>
+      <obj_property name="ObjectShortName">DCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/VAUXP" type="array">
+      <obj_property name="ElementShortName">VAUXP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VAUXP[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/VAUXN" type="array">
+      <obj_property name="ElementShortName">VAUXN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VAUXN[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/VP" type="logic">
+      <obj_property name="ElementShortName">VP</obj_property>
+      <obj_property name="ObjectShortName">VP</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/VN" type="logic">
+      <obj_property name="ElementShortName">VN</obj_property>
+      <obj_property name="ObjectShortName">VN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_TEMP" type="array">
+      <obj_property name="ElementShortName">MEASURED_TEMP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_TEMP[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_VCCINT" type="array">
+      <obj_property name="ElementShortName">MEASURED_VCCINT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_VCCINT[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_VCCAUX" type="array">
+      <obj_property name="ElementShortName">MEASURED_VCCAUX[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_VCCAUX[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_VCCBRAM" type="array">
+      <obj_property name="ElementShortName">MEASURED_VCCBRAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_VCCBRAM[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_AUX0" type="array">
+      <obj_property name="ElementShortName">MEASURED_AUX0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_AUX0[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_AUX1" type="array">
+      <obj_property name="ElementShortName">MEASURED_AUX1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_AUX1[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_AUX2" type="array">
+      <obj_property name="ElementShortName">MEASURED_AUX2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_AUX2[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/MEASURED_AUX3" type="array">
+      <obj_property name="ElementShortName">MEASURED_AUX3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEASURED_AUX3[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/ALM" type="array">
+      <obj_property name="ElementShortName">ALM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ALM[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/CHANNEL" type="array">
+      <obj_property name="ElementShortName">CHANNEL[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CHANNEL[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/state" type="array">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/drdy" type="logic">
+      <obj_property name="ElementShortName">drdy</obj_property>
+      <obj_property name="ObjectShortName">drdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/EOS" type="logic">
+      <obj_property name="ElementShortName">EOS</obj_property>
+      <obj_property name="ObjectShortName">EOS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/EOC" type="logic">
+      <obj_property name="ElementShortName">EOC</obj_property>
+      <obj_property name="ObjectShortName">EOC</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/XADC_REG_test/XADC_REG_inst/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+</wave_config>

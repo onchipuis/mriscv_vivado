@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="GPIO_interface_AXI_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="GPIO_interface_AXI_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="833760166666fs"></ZoomStartTime>
+      <ZoomEndTime time="5836321166667fs"></ZoomEndTime>
+      <Cursor1Time time="5002561000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="47" />
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_PinIn" type="array">
+      <obj_property name="ElementShortName">GPIO_PinIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_PinIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_PinOut" type="array">
+      <obj_property name="ElementShortName">GPIO_PinOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_PinOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_Rx" type="array">
+      <obj_property name="ElementShortName">GPIO_Rx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_Rx[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_Tx" type="array">
+      <obj_property name="ElementShortName">GPIO_Tx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_Tx[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_Strength" type="array">
+      <obj_property name="ElementShortName">GPIO_Strength[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_Strength[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_Pulldown" type="array">
+      <obj_property name="ElementShortName">GPIO_Pulldown[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_Pulldown[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/GPIO_Pullup" type="array">
+      <obj_property name="ElementShortName">GPIO_Pullup[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GPIO_Pullup[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/CORE_IRQ" type="array">
+      <obj_property name="ElementShortName">CORE_IRQ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CORE_IRQ[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/wassert" type="array">
+      <obj_property name="ElementShortName">wassert[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wassert[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/waddr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[31:0]</obj_property>
+      <obj_property name="label">waddr[31:2]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/serial_txd" type="logic">
+      <obj_property name="ElementShortName">serial_txd</obj_property>
+      <obj_property name="ObjectShortName">serial_txd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/serial_rxd" type="logic">
+      <obj_property name="ElementShortName">serial_rxd</obj_property>
+      <obj_property name="ObjectShortName">serial_rxd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/error" type="array">
+      <obj_property name="ElementShortName">error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_tx_axi_tdata" type="array">
+      <obj_property name="ElementShortName">uart_tx_axi_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_axi_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_tx_axi_tvalid" type="logic">
+      <obj_property name="ElementShortName">uart_tx_axi_tvalid</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_axi_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_tx_axi_tready" type="logic">
+      <obj_property name="ElementShortName">uart_tx_axi_tready</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_axi_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_rx_axi_tdata" type="array">
+      <obj_property name="ElementShortName">uart_rx_axi_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_axi_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_rx_axi_tvalid" type="logic">
+      <obj_property name="ElementShortName">uart_rx_axi_tvalid</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_axi_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_rx_axi_tready" type="logic">
+      <obj_property name="ElementShortName">uart_rx_axi_tready</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_axi_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_sp" type="array">
+      <obj_property name="ElementShortName">uart_sp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_sp[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_ep" type="array">
+      <obj_property name="ElementShortName">uart_ep[9:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_ep[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_mem_cen" type="logic">
+      <obj_property name="ElementShortName">uart_mem_cen</obj_property>
+      <obj_property name="ObjectShortName">uart_mem_cen</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_mem_wen" type="logic">
+      <obj_property name="ElementShortName">uart_mem_wen</obj_property>
+      <obj_property name="ObjectShortName">uart_mem_wen</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_mem_addr" type="array">
+      <obj_property name="ElementShortName">uart_mem_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_mem_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_mem_d" type="array">
+      <obj_property name="ElementShortName">uart_mem_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_mem_d[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/GPIO_interface_AXI_test/inst_GPIO_interface_AXI/uart_mem_q" type="array">
+      <obj_property name="ElementShortName">uart_mem_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_mem_q[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="D:/Documentos/Documentos/CIDIC/vivado/picorv32_vivado/picorv32_vivado.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="24">
+	</WVObjectSize>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/is_writting_1" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/is_writting_1</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/is_writting_1</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_bvalid_o" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_bvalid_o</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_bvalid_o</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_rvalid_o" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_rvalid_o</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_rvalid_o</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_rdata_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_rdata_o[31:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_rdata_o[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/waddr_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/waddr_o[31:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/waddr_o[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/raddr_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/raddr_o[31:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/raddr_o[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/wdata_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/wdata_o[31:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/wdata_o[31:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/wstrb_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/wstrb_o[3:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/wstrb_o[3:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/wassert_o" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/wassert_o[1:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/wassert_o[1:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/rassert_o" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/rassert_o</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/rassert_o</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_rready_o" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_rready_o</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_rready_o</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_bready_o" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_bready_o</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_bready_o</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/state" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/state[3:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/state[3:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_wdf_wren" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_wdf_wren</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_wdf_wren</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_wdf_end" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_wdf_end</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_wdf_end</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_en" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_en</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_en</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_cmd" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_cmd[2:0]</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_cmd[2:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_init_calib_complete" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_init_calib_complete</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_init_calib_complete</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_rdy" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_rdy</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_rdy</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/mem_wdf_rdy" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/mem_wdf_rdy</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/mem_wdf_rdy</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/is_writting" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/is_writting</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/is_writting</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_bready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_bready</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_bready</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/axi_rready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/axi_rready</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/axi_rready</obj_property>
+	</wvobject>
+	<wvobject fp_name="inst_AXI_DDR2_MIG/RST" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">inst_AXI_DDR2_MIG/RST</obj_property>
+		<obj_property name="ObjectShortName">inst_AXI_DDR2_MIG/RST</obj_property>
+	</wvobject>
+</wave_config>
+

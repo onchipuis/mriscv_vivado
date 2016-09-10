@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI_SRAM_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI_SRAM_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="63190166666fs"></ZoomStartTime>
+      <ZoomEndTime time="63695166667fs"></ZoomEndTime>
+      <Cursor1Time time="63611000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="84" />
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_addr" type="array">
+      <obj_property name="ElementShortName">ddr2_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_ba" type="array">
+      <obj_property name="ElementShortName">ddr2_ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_ras_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_ras_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ras_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_cas_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_cas_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cas_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_we_n" type="logic">
+      <obj_property name="ElementShortName">ddr2_we_n</obj_property>
+      <obj_property name="ObjectShortName">ddr2_we_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_ck_p" type="array">
+      <obj_property name="ElementShortName">ddr2_ck_p[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ck_p[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_ck_n" type="array">
+      <obj_property name="ElementShortName">ddr2_ck_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_ck_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_cke" type="array">
+      <obj_property name="ElementShortName">ddr2_cke[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cke[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_cs_n" type="array">
+      <obj_property name="ElementShortName">ddr2_cs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_cs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_dm" type="array">
+      <obj_property name="ElementShortName">ddr2_dm[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dm[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_odt" type="array">
+      <obj_property name="ElementShortName">ddr2_odt[0:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_odt[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_dq" type="array">
+      <obj_property name="ElementShortName">ddr2_dq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dq[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_dqs_p" type="array">
+      <obj_property name="ElementShortName">ddr2_dqs_p[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dqs_p[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/ddr2_dqs_n" type="array">
+      <obj_property name="ElementShortName">ddr2_dqs_n[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr2_dqs_n[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/error" type="array">
+      <obj_property name="ElementShortName">error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/xorshift64_state" type="array">
+      <obj_property name="ElementShortName">xorshift64_state[63:0]</obj_property>
+      <obj_property name="ObjectShortName">xorshift64_state[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/tries" type="array">
+      <obj_property name="ElementShortName">tries[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tries[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/sword" type="array">
+      <obj_property name="ElementShortName">sword[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sword[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/impl" type="array">
+      <obj_property name="ElementShortName">impl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">impl[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/syncing" type="array">
+      <obj_property name="ElementShortName">syncing[31:0]</obj_property>
+      <obj_property name="ObjectShortName">syncing[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[26:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[26:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/cState" type="array">
+      <obj_property name="ElementShortName">cState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cState[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/nState" type="array">
+      <obj_property name="ElementShortName">nState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nState[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/mem_init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">mem_init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">mem_init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/mem_rdy" type="logic">
+      <obj_property name="ElementShortName">mem_rdy</obj_property>
+      <obj_property name="ObjectShortName">mem_rdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/mem_wdf_rdy" type="logic">
+      <obj_property name="ElementShortName">mem_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">mem_wdf_rdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_cen_int" type="logic">
+      <obj_property name="ElementShortName">ram_cen_int</obj_property>
+      <obj_property name="ObjectShortName">ram_cen_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_oen_int" type="logic">
+      <obj_property name="ElementShortName">ram_oen_int</obj_property>
+      <obj_property name="ObjectShortName">ram_oen_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_wen_int" type="logic">
+      <obj_property name="ElementShortName">ram_wen_int</obj_property>
+      <obj_property name="ObjectShortName">ram_wen_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_cen" type="logic">
+      <obj_property name="ElementShortName">ram_cen</obj_property>
+      <obj_property name="ObjectShortName">ram_cen</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_oen" type="logic">
+      <obj_property name="ElementShortName">ram_oen</obj_property>
+      <obj_property name="ObjectShortName">ram_oen</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_wen" type="logic">
+      <obj_property name="ElementShortName">ram_wen</obj_property>
+      <obj_property name="ObjectShortName">ram_wen</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_a" type="array">
+      <obj_property name="ElementShortName">ram_a[26:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_a[26:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_dq_i" type="array">
+      <obj_property name="ElementShortName">ram_dq_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dq_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_dq_o" type="array">
+      <obj_property name="ElementShortName">ram_dq_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dq_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/rd_data_1" type="array">
+      <obj_property name="ElementShortName">rd_data_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/rd_data_2" type="array">
+      <obj_property name="ElementShortName">rd_data_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/sys_clk_i" type="logic">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_addr" type="array">
+      <obj_property name="ElementShortName">app_addr[26:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr[26:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_cmd" type="array">
+      <obj_property name="ElementShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">app_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_en" type="logic">
+      <obj_property name="ElementShortName">app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_wdf_data" type="array">
+      <obj_property name="ElementShortName">app_wdf_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_wdf_end" type="logic">
+      <obj_property name="ElementShortName">app_wdf_end</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_end</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_wdf_mask" type="array">
+      <obj_property name="ElementShortName">app_wdf_mask[7:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_mask[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_wdf_wren" type="logic">
+      <obj_property name="ElementShortName">app_wdf_wren</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_wren</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_rd_data" type="array">
+      <obj_property name="ElementShortName">app_rd_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_rd_data_end" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_end</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_rd_data_valid" type="logic">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_rdy" type="logic">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_wdf_rdy" type="logic">
+      <obj_property name="ElementShortName">app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_sr_req" type="logic">
+      <obj_property name="ElementShortName">app_sr_req</obj_property>
+      <obj_property name="ObjectShortName">app_sr_req</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_ref_req" type="logic">
+      <obj_property name="ElementShortName">app_ref_req</obj_property>
+      <obj_property name="ObjectShortName">app_ref_req</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_zq_req" type="logic">
+      <obj_property name="ElementShortName">app_zq_req</obj_property>
+      <obj_property name="ObjectShortName">app_zq_req</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_sr_active" type="logic">
+      <obj_property name="ElementShortName">app_sr_active</obj_property>
+      <obj_property name="ObjectShortName">app_sr_active</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_ref_ack" type="logic">
+      <obj_property name="ElementShortName">app_ref_ack</obj_property>
+      <obj_property name="ObjectShortName">app_ref_ack</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/app_zq_ack" type="logic">
+      <obj_property name="ElementShortName">app_zq_ack</obj_property>
+      <obj_property name="ObjectShortName">app_zq_ack</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/ui_clk" type="logic">
+      <obj_property name="ElementShortName">ui_clk</obj_property>
+      <obj_property name="ObjectShortName">ui_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/ui_clk_sync_rst" type="logic">
+      <obj_property name="ElementShortName">ui_clk_sync_rst</obj_property>
+      <obj_property name="ObjectShortName">ui_clk_sync_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/init_calib_complete" type="logic">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/device_temp_i" type="array">
+      <obj_property name="ElementShortName">device_temp_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">device_temp_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/Inst_DDR/sys_rst" type="logic">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SRAM_test/inst_AXI_SRAM/ram2ddr_inst/ram_dq_o_int" type="array">
+      <obj_property name="ElementShortName">ram_dq_o_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dq_o_int[15:0]</obj_property>
+   </wvobject>
+</wave_config>

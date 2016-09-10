@@ -1,0 +1,3 @@
+write_cfgmem -force -format MCS -size 16 -loaddata "up 0x0 add.dat" program.mcs
+riscv32-unknown-elf-gcc -c add.S
+riscv32-unknown-elf-objcopy -O binary add.o add.dat

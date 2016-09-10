@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AXI_SPI_ROM_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AXI_SPI_ROM_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8956596416666fs"></ZoomStartTime>
+      <ZoomEndTime time="9261293916667fs"></ZoomEndTime>
+      <Cursor1Time time="9210511000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="46" />
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_CS" type="logic">
+      <obj_property name="ElementShortName">ROM_CS</obj_property>
+      <obj_property name="ObjectShortName">ROM_CS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_SDI" type="logic">
+      <obj_property name="ElementShortName">ROM_SDI</obj_property>
+      <obj_property name="ObjectShortName">ROM_SDI</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_SDO" type="logic">
+      <obj_property name="ElementShortName">ROM_SDO</obj_property>
+      <obj_property name="ObjectShortName">ROM_SDO</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_WP" type="logic">
+      <obj_property name="ElementShortName">ROM_WP</obj_property>
+      <obj_property name="ObjectShortName">ROM_WP</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_HLD" type="logic">
+      <obj_property name="ElementShortName">ROM_HLD</obj_property>
+      <obj_property name="ObjectShortName">ROM_HLD</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/ROM_SCK" type="logic">
+      <obj_property name="ElementShortName">ROM_SCK</obj_property>
+      <obj_property name="ObjectShortName">ROM_SCK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/SCLKA" type="logic">
+      <obj_property name="ElementShortName">SCLKA</obj_property>
+      <obj_property name="ObjectShortName">SCLKA</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/cap_data" type="array">
+      <obj_property name="ElementShortName">cap_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">cap_data[71:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/rcv_data" type="array">
+      <obj_property name="ElementShortName">rcv_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_data[71:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/CEB" type="logic">
+      <obj_property name="ElementShortName">CEB</obj_property>
+      <obj_property name="ObjectShortName">CEB</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/ret_state" type="array">
+      <obj_property name="ElementShortName">ret_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ret_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/SCLK_EN" type="logic">
+      <obj_property name="ElementShortName">SCLK_EN</obj_property>
+      <obj_property name="ObjectShortName">SCLK_EN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/cap_enable" type="logic">
+      <obj_property name="ElementShortName">cap_enable</obj_property>
+      <obj_property name="ObjectShortName">cap_enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/sync_stop" type="array">
+      <obj_property name="ElementShortName">sync_stop[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_stop[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/command_data" type="array">
+      <obj_property name="ElementShortName">command_data[71:0]</obj_property>
+      <obj_property name="ObjectShortName">command_data[71:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/command_sync_stop" type="array">
+      <obj_property name="ElementShortName">command_sync_stop[6:0]</obj_property>
+      <obj_property name="ObjectShortName">command_sync_stop[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_AXI_SPI_ROM/transmit" type="logic">
+      <obj_property name="ElementShortName">transmit</obj_property>
+      <obj_property name="ObjectShortName">transmit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/Instruct" type="array">
+      <obj_property name="ElementShortName">Instruct[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruct[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[7:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/opcode_cnt" type="array">
+      <obj_property name="ElementShortName">opcode_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/BYTE" type="array">
+      <obj_property name="ElementShortName">BYTE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/WEL" type="logic">
+      <obj_property name="ElementShortName">WEL</obj_property>
+      <obj_property name="ObjectShortName">WEL</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/falling_edge_write" type="logic">
+      <obj_property name="ElementShortName">falling_edge_write</obj_property>
+      <obj_property name="ObjectShortName">falling_edge_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/RdPswdProtMode" type="logic">
+      <obj_property name="ElementShortName">RdPswdProtMode</obj_property>
+      <obj_property name="ObjectShortName">RdPswdProtMode</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AXI_SPI_ROM_test/inst_s25fl128s/Status_reg1" type="array">
+      <obj_property name="ElementShortName">Status_reg1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Status_reg1[7:0]</obj_property>
+   </wvobject>
+</wave_config>

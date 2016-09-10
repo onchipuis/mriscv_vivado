@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cduran/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/imports/priencr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priencr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cduran/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/imports/axi4_interconnect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_interconnect
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cduran/vivado/picorv32_vivado/picorv32_vivado.srcs/sim_1/imports/verilog/axi4_interconnect_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_interconnect_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cduran/vivado/picorv32_vivado/picorv32_vivado.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

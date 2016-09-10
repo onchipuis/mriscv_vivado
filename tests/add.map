@@ -1,0 +1,22 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.memory         0x0000000000000000      0x5a8
+                0x0000000000000000                . = 0x0
+ start*(.text)
+ *(.text)
+ .text          0x0000000000000000      0x5a8 add.o
+                0x0000000000000000                mytest
+ *(*)
+ .data          0x00000000000005a8        0x0 add.o
+ .bss           0x00000000000005a8        0x0 add.o
+                0x00000000000005a8                end = .
+LOAD add.o
+LOAD /usr/local/riscv32i/lib/gcc/riscv32-unknown-elf/5.3.0/libgcc.a
+OUTPUT(add.elf elf32-littleriscv)

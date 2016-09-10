@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ADC_interface_AXI_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ADC_interface_AXI_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="9000000001fs"></ZoomEndTime>
+      <Cursor1Time time="9000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="45" />
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/ALM" type="array">
+      <obj_property name="ElementShortName">ALM[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ALM[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/OT" type="logic">
+      <obj_property name="ElementShortName">OT</obj_property>
+      <obj_property name="ObjectShortName">OT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/XADC_EOC" type="logic">
+      <obj_property name="ElementShortName">XADC_EOC</obj_property>
+      <obj_property name="ObjectShortName">XADC_EOC</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/XADC_EOS" type="logic">
+      <obj_property name="ElementShortName">XADC_EOS</obj_property>
+      <obj_property name="ObjectShortName">XADC_EOS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/VP" type="logic">
+      <obj_property name="ElementShortName">VP</obj_property>
+      <obj_property name="ObjectShortName">VP</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/VN" type="logic">
+      <obj_property name="ElementShortName">VN</obj_property>
+      <obj_property name="ObjectShortName">VN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/EOS" type="logic">
+      <obj_property name="ElementShortName">EOS</obj_property>
+      <obj_property name="ObjectShortName">EOS</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/EOC" type="logic">
+      <obj_property name="ElementShortName">EOC</obj_property>
+      <obj_property name="ObjectShortName">EOC</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/CHANNEL" type="array">
+      <obj_property name="ElementShortName">CHANNEL[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CHANNEL[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/drdy" type="logic">
+      <obj_property name="ElementShortName">drdy</obj_property>
+      <obj_property name="ObjectShortName">drdy</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/daddr" type="array">
+      <obj_property name="ElementShortName">daddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/di_drp" type="array">
+      <obj_property name="ElementShortName">di_drp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">di_drp[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/do_drp" type="array">
+      <obj_property name="ElementShortName">do_drp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_drp[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/vauxp_active" type="array">
+      <obj_property name="ElementShortName">vauxp_active[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vauxp_active[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/vauxn_active" type="array">
+      <obj_property name="ElementShortName">vauxn_active[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vauxn_active[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/den_reg" type="array">
+      <obj_property name="ElementShortName">den_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">den_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/dwe_reg" type="array">
+      <obj_property name="ElementShortName">dwe_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dwe_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/RESET_IN" type="logic">
+      <obj_property name="ElementShortName">RESET_IN</obj_property>
+      <obj_property name="ObjectShortName">RESET_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/wassert" type="array">
+      <obj_property name="ElementShortName">wassert[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wassert[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/rassert" type="logic">
+      <obj_property name="ElementShortName">rassert</obj_property>
+      <obj_property name="ObjectShortName">rassert</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ADC_interface_AXI_test/inst_ADC_interface_AXI/state" type="array">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+   </wvobject>
+</wave_config>
