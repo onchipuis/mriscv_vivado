@@ -62,11 +62,11 @@ module impl_axi(
 	input 			UART_RTS,
 	// Slave 6 (SEGMENT_interface_AXI), 7-segment full control pins
 	output [7:0]    SEGMENT_AN,
-	output [7:0]    SEGMENT_SEG//,
+	output [7:0]    SEGMENT_SEG,
 	// Slave 7 (spi_axi_slave), SPI Slave Interface
-//	output 			spi_axi_slave_CEB, 
-//	output 			spi_axi_slave_SCLK, 
-//	output 			spi_axi_slave_DATA
+	output 			spi_axi_slave_CEB, 
+	output 			spi_axi_slave_SCLK, 
+	output 			spi_axi_slave_DATA
 	);
 	
 	wire CLK;
