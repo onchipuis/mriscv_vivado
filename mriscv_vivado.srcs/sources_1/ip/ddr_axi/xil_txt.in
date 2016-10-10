@@ -9,16 +9,16 @@ SET_PREFERENCE package csg324
 SET_PREFERENCE verilogsim true
 SET_PREFERENCE vhdlsim false
 SET_PREFERENCE designentry Verilog
-SET_PREFERENCE outputdirectory d:/Documentos/Documentos/CIDIC/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/ip/ddr_axi/_tmp/
-SET_PREFERENCE subworkingdirectory d:/Documentos/Documentos/CIDIC/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/ip/ddr_axi/_tmp/
+SET_PREFERENCE outputdirectory /local/home/roman/projects/atrix/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr_axi/_tmp/
+SET_PREFERENCE subworkingdirectory /local/home/roman/projects/atrix/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr_axi/_tmp/
 SET_PREFERENCE flowvendor Other
 SET_PREFERENCE tool vivado
 SET_PREFERENCE compnamestatus 0
 SET_PARAMETER component_name ddr_axi
-SET_PARAMETER xml_input_file D:/Documentos/Documentos/CIDIC/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/ip/ddr_axi/mig_b.prj
-SET_PARAMETER data_dir_path c:/Xilinx/Vivado/2015.4/data/ip/xilinx/mig_7series_v2_4
+SET_PARAMETER xml_input_file /local/home/roman/projects/atrix/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr_axi/mig_b.prj
+SET_PARAMETER data_dir_path /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0
 SET_CORE_NAME Memory Interface Generator (MIG 7 Series)
 SET_CORE_VERSION 2.3
 SET_CORE_VLNV xilinx.com:ip:mig_7series:2.3
-SET_CORE_PATH c:/Xilinx/Vivado/2015.4/data/ip/xilinx/mig_7series_v2_4
-SET_CORE_DATASHEET c:/Xilinx/Vivado/2015.4/data/ip/xilinx/mig_7series_v2_4/data/docs/ds176_7series_MIS.pdf
+SET_CORE_PATH /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0
+SET_CORE_DATASHEET /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0/data/docs/ds176_7series_MIS.pdf

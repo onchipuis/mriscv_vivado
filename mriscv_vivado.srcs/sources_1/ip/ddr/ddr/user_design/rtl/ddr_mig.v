@@ -49,7 +49,7 @@
 //   ____  ____
 //  /   /\/   /
 // /___/  \  /    Vendor             : Xilinx
-// \   \   \/     Version            : 2.4
+// \   \   \/     Version            : 4.0
 //  \   \         Application        : MIG
 //  /   /         Filename           : ddr_mig.v
 // /___/   /\     Date Last Modified : $Date: 2011/06/02 08:35:03 $
@@ -560,6 +560,8 @@ module ddr_mig #
   wire [1:0]                        iodelay_ctrl_rdy;
   wire                              clk_ref_in;
   wire                              sys_rst_o;
+  wire                              clk_div2;
+  wire                              rst_div2;
   wire                              freq_refclk ;
   wire                              mem_refclk ;
   wire                              pll_lock ;
@@ -577,6 +579,7 @@ module ddr_mig #
   wire                              rst;
   
   wire [(2*nCK_PER_CLK)-1:0]            app_ecc_multiple_err;
+  wire [(2*nCK_PER_CLK)-1:0]            app_ecc_single_err;
   wire                                ddr2_reset_n;
       
   wire                                ddr2_parity;
@@ -687,7 +690,7 @@ module ddr_mig #
       assign clk_ref_in = clk_ref_i;
   endgenerate
 
-  mig_7series_v2_4_iodelay_ctrl #
+  mig_7series_v4_0_iodelay_ctrl #
     (
      .TCQ                       (TCQ),
      .IODELAY_GRP0              (IODELAY_GRP0),
@@ -709,7 +712,7 @@ module ddr_mig #
        .clk_ref_i        (clk_ref_in),
        .sys_rst          (sys_rst)
        );
-  mig_7series_v2_4_clk_ibuf #
+  mig_7series_v4_0_clk_ibuf #
     (
      .SYSCLK_TYPE      (SYSCLK_TYPE),
      .DIFF_TERM_SYSCLK (DIFF_TERM_SYSCLK)
@@ -726,7 +729,7 @@ module ddr_mig #
   generate
     if (TEMP_MON_EN == "ON") begin: temp_mon_enabled
 
-      mig_7series_v2_4_tempmon #
+      mig_7series_v4_0_tempmon #
         (
          .TCQ              (TCQ),
          .TEMP_MON_CONTROL (TEMP_MON_CONTROL),
@@ -748,7 +751,7 @@ module ddr_mig #
     end
   endgenerate
          
-  mig_7series_v2_4_infrastructure #
+  mig_7series_v4_0_infrastructure #
     (
      .TCQ                (TCQ),
      .nCK_PER_CLK        (nCK_PER_CLK),
@@ -773,6 +776,8 @@ module ddr_mig #
        // Outputs
        .rstdiv0          (rst),
        .clk              (clk),
+       .clk_div2         (clk_div2),
+       .rst_div2         (rst_div2),
        .mem_refclk       (mem_refclk),
        .freq_refclk      (freq_refclk),
        .sync_pulse       (sync_pulse),
@@ -799,7 +804,7 @@ module ddr_mig #
        );
       
 
-  mig_7series_v2_4_memc_ui_top_std #
+  mig_7series_v4_0_memc_ui_top_std #
     (
      .TCQ                              (TCQ),
      .ADDR_CMD_MODE                    (ADDR_CMD_MODE),
@@ -930,11 +935,15 @@ module ddr_mig #
      .USE_DM_PORT                      (USE_DM_PORT),
      .USE_ODT_PORT                     (USE_ODT_PORT),
      .MASTER_PHY_CTL                   (PHY_CONTROL_MASTER_BANK),
-     .TAPSPERKCLK                      (TAPSPERKCLK)
+     .TAPSPERKCLK                      (TAPSPERKCLK),
+     .SKIP_CALIB                       ("FALSE"),
+     .FPGA_VOLT_TYPE                   ("N")
      )
     u_memc_ui_top_std
       (
        .clk                              (clk),
+       .clk_div2                         (clk_div2),
+       .rst_div2                         (rst_div2),
        .clk_ref                          (clk_ref),
        .mem_refclk                       (mem_refclk), //memory clock
        .freq_refclk                      (freq_refclk),
@@ -979,6 +988,7 @@ module ddr_mig #
        .app_wdf_mask                     (app_wdf_mask),
        .app_wdf_wren                     (app_wdf_wren),
        .app_ecc_multiple_err             (app_ecc_multiple_err),
+       .app_ecc_single_err               (app_ecc_single_err),
        .app_rd_data                      (app_rd_data),
        .app_rd_data_end                  (app_rd_data_end),
        .app_rd_data_valid                (app_rd_data_valid),
@@ -994,6 +1004,11 @@ module ddr_mig #
        .app_correct_en_i                 (1'b1),
 
        .device_temp                      (device_temp),
+       .calib_tap_req                    (),
+       .calib_tap_load                   (1'b0),
+       .calib_tap_addr                   (7'b0),
+       .calib_tap_val                    (8'b0),
+       .calib_tap_load_done              (1'b0),
 
 // Debug logic ports
        .dbg_idel_up_all                  (dbg_idel_up_all),

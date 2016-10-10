@@ -1,5 +1,5 @@
 ###############################################################################
-## (c) Copyright 2008 – 2009 Xilinx, Inc. All rights reserved.
+## (c) Copyright 2008  2009 Xilinx, Inc. All rights reserved.
 ##
 ## This file contains confidential and proprietary information
 ## of Xilinx, Inc. and is protected under U.S. and
@@ -49,7 +49,7 @@
 ##   ____  ____
 ##  /   /\/   /
 ## /___/  \  /    Vendor             : Xilinx
-## \   \   \/     Version            : 2.4
+## \   \   \/     Version            : 4.0
 ##  \   \         Application        : MIG
 ##  /   /         Filename           : ies_run.sh
 ## /___/   /\     Date Last Modified : $Date: 2011/06/02 08:31:17 $

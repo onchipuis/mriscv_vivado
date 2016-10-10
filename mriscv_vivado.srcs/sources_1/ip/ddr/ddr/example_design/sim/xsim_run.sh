@@ -50,7 +50,7 @@
 #   ____  ____
 #  /   /\/   /
 # /___/  \  /    Vendor                : Xilinx
-# \   \   \/     Version               : 2.4
+# \   \   \/     Version               : 4.0
 #  \   \         Application           : MIG
 #  /   /         Filename              : xsim_run.bat
 # /___/   /\     Date Last Modified    : $Date: 2011/06/02 08:31:16 $

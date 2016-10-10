@@ -1,10 +1,10 @@
-// Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
-// Date        : Wed Aug 24 20:13:58 2016
-// Host        : cidic running 64-bit Debian GNU/Linux 8.2 (jessie)
+// Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+// Date        : Sun Oct  9 15:36:59 2016
+// Host        : XPS-15-9530 running 64-bit Ubuntu 16.04.1 LTS
 // Command     : write_verilog -force -mode synth_stub
-//               /home/cduran/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/ip/ddr/ddr_stub.v
+//               /local/home/roman/projects/atrix/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr/ddr_stub.v
 // Design      : ddr
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tcsg324-1
