@@ -11,6 +11,6 @@
 *.prj
 *.wdf
 *.runs/
+*.cache/
 .jobs/
-.cache/
 

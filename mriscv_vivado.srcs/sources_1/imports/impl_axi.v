@@ -285,7 +285,7 @@ module impl_axi(
 		.clk(CLK), 
 		.resetn(PICORV_RST_ALL), 
 		.trap(DUMMY),
-//rb		.PROGADDR_IRQ(PROGADDR_IRQ),
+		.PROGADDR_IRQ(PROGADDR_IRQ),
 		.mem_axi_awvalid(m_axi_awvalid[0]),
 		.mem_axi_awready(m_axi_awready[0]),
 		.mem_axi_awaddr(m_axi_awaddr_o[0]),
