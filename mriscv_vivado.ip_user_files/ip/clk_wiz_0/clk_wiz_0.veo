@@ -1,3 +1,4 @@
+
 // 
 // (c) Copyright 2008 - 2013 Xilinx, Inc. All rights reserved.
 // 
@@ -54,7 +55,8 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// CLK_OUT1___200.000______0.000______50.0______114.829_____98.575
+// clk_out1___200.000______0.000______50.0______112.754_____96.739
+// clk_out2____64.062______0.000______50.0______140.994_____96.739
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -73,6 +75,7 @@
     .clk_in1(clk_in1),      // input clk_in1
     // Clock out ports
     .clk_out1(clk_out1),     // output clk_out1
+    .clk_out2(clk_out2),     // output clk_out2
     // Status and control signals
     .reset(reset), // input reset
     .locked(locked));      // output locked

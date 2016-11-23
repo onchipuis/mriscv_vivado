@@ -1,10 +1,10 @@
--- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
--- Date        : Mon Mar 28 03:16:36 2016
--- Host        : CKYPC running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+-- Date        : Sun Oct  9 15:37:05 2016
+-- Host        : XPS-15-9530 running 64-bit Ubuntu 16.04.1 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               D:/Documentos/Documentos/CIDIC/vivado/picorv32_vivado/picorv32_vivado.srcs/sources_1/ip/ddr_axi/ddr_axi_stub.vhdl
+--               /local/home/roman/projects/atrix/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr_axi/ddr_axi_stub.vhdl
 -- Design      : ddr_axi
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

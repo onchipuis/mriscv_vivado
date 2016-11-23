@@ -1,0 +1,16 @@
+*.log
+*.jou
+*.str
+*.xml
+*.do
+*.txt
+*.f
+*.udo
+*.sh
+*.lock
+*.prj
+*.wdf
+*.runs/
+*.cache/
+.jobs/
+

@@ -9,7 +9,7 @@
     <LowPower_En>OFF</LowPower_En>
     <XADC_En>Disabled</XADC_En>
     <TargetFPGA>xc7a100t-csg324/-1</TargetFPGA>
-    <Version>2.4</Version>
+    <Version>4.0</Version>
     <SystemClock>No Buffer</SystemClock>
     <ReferenceClock>Use System Clock</ReferenceClock>
     <SysResetPolarity>ACTIVE LOW</SysResetPolarity>
