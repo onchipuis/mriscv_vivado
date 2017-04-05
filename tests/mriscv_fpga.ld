@@ -25,8 +25,8 @@
  */
 MEMORY
 {
-  FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 0x01000000 /*Put here if necesary bootloader start addressing*/
-  RAM (rwx) : ORIGIN = 0x80000000, LENGTH = 0x80000000
+  FLASH (rx) : ORIGIN = 0x00000000, LENGTH = 0x00002000 /*Put here if necesary bootloader start addressing*/
+  RAM (rwx) : ORIGIN = 0x00010000, LENGTH = 0x00001000
 }
 
 /* Linker script to place sections and symbol values. Should be used together
