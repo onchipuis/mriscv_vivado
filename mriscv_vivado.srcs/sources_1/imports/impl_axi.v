@@ -1,8 +1,8 @@
 /*
-mRISCV - picorv32 Artix-7 microcontroller version
+mRISCV - RISC-V Artix-7 microcontroller version
 MADE IN COLOMBIA
 
-CKDUR inc. 2016. Copy as you wish.
+ONCHIP. 2016. Copy as you wish.
 
 This is a out-of-box version for Artix-7. Can be adaptable but
 you need to re-adapt all the things.
@@ -280,11 +280,12 @@ module impl_axi(
 	); 
 	
 	// Master 1, picorv32_axi
-	picorv32_axi inst_picorv32_axi
+	// NOTE: You can also use the good picorv32_axi
+	/*picorv32_axi inst_picorv32_axi
 	(
 		.clk(CLK), 
 		.resetn(PICORV_RST_ALL), 
-		.trap(DUMMY),
+		//.trap(DUMMY),
 		.PROGADDR_IRQ(PROGADDR_IRQ),
 		.mem_axi_awvalid(m_axi_awvalid[0]),
 		.mem_axi_awready(m_axi_awready[0]),
@@ -305,6 +306,31 @@ module impl_axi(
 		.mem_axi_rdata(m_axi_rdata_o[0]),
 		.irq(irq)
 		//.eoi(DUMMY)
+	);*/
+	// Master 1, mriscvcore
+	mriscvcore mriscvcore_inst (
+		.clk    (CLK            ),
+		.rstn   (PICORV_RST_ALL  ),
+		//.trap   (trap           ),
+		.AWvalid(m_axi_awvalid[0]),
+		.AWready(m_axi_awready[0]),
+		.AWdata (m_axi_awaddr_o[0]),
+		.AWprot (m_axi_awprot_o[0]),
+		.Wvalid (m_axi_wvalid[0]),
+		.Wready (m_axi_wready[0]),
+		.Wdata  (m_axi_wdata_o[0]),
+		.Wstrb  (m_axi_wstrb_o[0]),
+		.Bvalid (m_axi_bvalid[0]),
+		.Bready (m_axi_bready[0]),
+		.ARvalid(m_axi_arvalid[0]),
+		.ARready(m_axi_arready[0]),
+		.ARdata (m_axi_araddr_o[0]),
+		.ARprot (m_axi_arprot_o[0]),
+		.Rvalid (m_axi_rvalid[0]),
+		.RReady (m_axi_rready[0]),
+		.Rdata  (m_axi_rdata_o[0]),
+		//.outirr (irq            ),
+		.inirr  (irq          )
 	);
 	
 	// Master 2, spi_axi_master
