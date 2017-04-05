@@ -59,7 +59,6 @@ MEMORY
  *   __StackTop
  *   __stack
  */
-ENTRY(Reset_Handler)
 
 SECTIONS
 {
