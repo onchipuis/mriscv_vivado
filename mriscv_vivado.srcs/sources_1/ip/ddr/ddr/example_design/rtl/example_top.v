@@ -49,7 +49,7 @@
 //   ____  ____
 //  /   /\/   /
 // /___/  \  /    Vendor             : Xilinx
-// \   \   \/     Version            : 2.4
+// \   \   \/     Version            : 4.0
 //  \   \         Application        : MIG
 //  /   /         Filename           : example_top.v
 // /___/   /\     Date Last Modified : $Date: 2011/06/02 08:35:03 $
@@ -120,6 +120,7 @@ module example_top #
                                      // # of DQ per DQS
    parameter ECC                   = "OFF",
    parameter ECC_TEST              = "OFF",
+   //parameter nBANK_MACHS           = 4,
    parameter nBANK_MACHS           = 4,
    parameter RANKS                 = 1,
                                      // # of Ranks.
@@ -154,7 +155,7 @@ module example_top #
    //***************************************************************************
    parameter TCQ                   = 100,
    
-   
+
    parameter DRAM_TYPE             = "DDR2",
 
    
@@ -259,6 +260,7 @@ function integer clogb2 (input integer size);
   // Wire declarations
       
   wire [(2*nCK_PER_CLK)-1:0]              app_ecc_multiple_err;
+  wire [(2*nCK_PER_CLK)-1:0]              app_ecc_single_err;
   wire [ADDR_WIDTH-1:0]                 app_addr;
   wire [2:0]                            app_cmd;
   wire                                  app_en;
@@ -402,7 +404,7 @@ function integer clogb2 (input integer size);
 // on the application interface of the memory controller
 //***************************************************************************
 
-  mig_7series_v2_4_traffic_gen_top #
+  mig_7series_v4_0_traffic_gen_top #
     (
      .TCQ                 (TCQ),
      .SIMULATION          (SIMULATION),

@@ -49,7 +49,7 @@
 ##   ____  ____
 ##  /   /\/   /
 ## /___/  \  /    Vendor             : Xilinx
-## \   \   \/     Version            : 2.4
+## \   \   \/     Version            : 4.0
 ##  \   \         Application        : MIG
 ##  /   /         Filename           : vcs_run.sh
 ## /___/   /\     Date Last Modified : $Date: 2011/06/02 08:31:17 $
@@ -72,19 +72,20 @@
 #libraries path#
 
 #Compile all modules#
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/ddr.v > vcs_sim.log 
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/imports/rtl/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/clocking/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/controller/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/ecc/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/ip_top/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/phy/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/ip/ddr/ddr/user_design/rtl/ui/*.v >> vcs_sim.log
-vlogan -sverilog ../../../sources_1/imports/rtl/traffic_gen/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr.v > vcs_sim.log 
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.v >> vcs_sim.log
+vlogan -sverilog mig_7series*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ip_top/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/*.v >> vcs_sim.log
+vlogan -sverilog ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/*.v >> vcs_sim.log
 
 
 
+
+vlogan -sverilog example_top.v >> vcs_sim.log
 
 #Compile files in sim folder (excluding model parameter file)#
 #$XILINX variable must be set

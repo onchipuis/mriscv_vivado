@@ -49,7 +49,7 @@
 ##   ____  ____
 ##  /   /\/   /
 ## /___/  \  /    Vendor             : Xilinx
-## \   \   \/     Version            : 2.4
+## \   \   \/     Version            : 4.0
 ##  \   \         Application        : MIG
 ##  /   /         Filename           : ies_run.sh
 ## /___/   /\     Date Last Modified : $Date: 2011/06/02 08:31:17 $
@@ -73,18 +73,19 @@
 #libraries path#
 
 #Compile all modules#
-ncvlog -sv -work worklib -messages ../../../sources_1/imports/rtl/*.v > ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/imports/rtl/traffic_gen/*.v >> ies_sim.log
-ncvlog -sv -work worklib -messages ../../../sources_1/ip/ddr/ddr/user_design/rtl/ddr.v >> ies_sim.log
-ncvlog -sv -work worklib -messages ../../../sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/clocking/*.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/controller/*.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/ecc/*.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/ip_top/*.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/phy/*.v >> ies_sim.log
-ncvlog -work worklib -messages -sv ../../../sources_1/ip/ddr/ddr/user_design/rtl/ui/*.v >> ies_sim.log
+ncvlog -work worklib -sv -messages mig_7series*.v > ies_sim.log
+ncvlog -sv -work worklib -messages ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr.v >> ies_sim.log
+ncvlog -sv -work worklib -messages ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/*.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/*.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/*.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ip_top/*.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/*.v >> ies_sim.log
+ncvlog -work worklib -messages -sv ../ddr_ex.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/*.v >> ies_sim.log
 
 
+
+ncvlog -sv -work worklib -messages example_top.v >> ies_sim.log
 
 #Compile files in sim folder (excluding model parameter file)#
 #$XILINX variable must be set

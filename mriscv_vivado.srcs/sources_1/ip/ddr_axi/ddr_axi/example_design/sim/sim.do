@@ -1,5 +1,5 @@
 ###############################################################################
-## (c) Copyright 2008 – 2009 Xilinx, Inc. All rights reserved.
+## (c) Copyright 2008  2009 Xilinx, Inc. All rights reserved.
 ##
 ## This file contains confidential and proprietary information
 ## of Xilinx, Inc. and is protected under U.S. and
@@ -49,7 +49,7 @@
 ##   ____  ____
 ##  /   /\/   /
 ## /___/  \  /    Vendor             : Xilinx
-## \   \   \/     Version            : 2.4
+## \   \   \/     Version            : 4.0
 ##  \   \         Application        : MIG
 ##  /   /         Filename           : sim.do
 ## /___/   /\     Date Last Modified : $Date: 2011/06/02 08:31:17 $
@@ -75,17 +75,19 @@ vlib work
 #vmap secureip <secureip lib path>
 
 #Compile all modules#
-vlog  ../../../sources_1/imports/rtl/*.v
-vlog  -incr ../../../sources_1/imports/rtl/traffic_gen/*.v
-vlog  ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ddr_axi.v
-vlog  ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ddr_axi_mig_sim.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/clocking/*.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/controller/*.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ecc/*.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ip_top/*.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/phy/*.v
-vlog  -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ui/*.v
-vlog -incr ../../../sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/axi/*
+vlog  -incr mig_7series*.v
+vlog  ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ddr_axi.v
+vlog  ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ddr_axi_mig_sim.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/clocking/*.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/controller/*.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ecc/*.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ip_top/*.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/phy/*.v
+vlog  -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/ui/*.v
+vlog -incr ../ddr_axi_ex.srcs/sources_1/ip/ddr_axi/ddr_axi/user_design/rtl/axi/*
+
+
+vlog  example_top.v
 
 #Compile files in sim folder (excluding model parameter file)#
 #$XILINX variable must be set

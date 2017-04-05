@@ -49,7 +49,7 @@
 //   ____  ____
 //  /   /\/   /
 // /___/  \  /    Vendor             : Xilinx
-// \   \   \/     Version            : 2.4
+// \   \   \/     Version            : 4.0
 //  \   \         Application        : MIG
 //  /   /         Filename           : example_top.v
 // /___/   /\     Date Last Modified : $Date: 2011/06/02 08:35:03 $
@@ -104,6 +104,7 @@ module example_top #
                                      // # of DQ per DQS
    parameter ECC                   = "OFF",
    parameter ECC_TEST              = "OFF",
+   //parameter nBANK_MACHS           = 4,
    parameter nBANK_MACHS           = 4,
    parameter RANKS                 = 1,
                                      // # of Ranks.
@@ -463,7 +464,7 @@ function integer clogb2 (input integer size);
      aresetn <= ~rst;
    end
 
-   mig_7series_v2_4_axi4_tg #(
+   mig_7series_v4_0_axi4_tg #(
 
      .C_AXI_ID_WIDTH                   (C_S_AXI_ID_WIDTH),
      .C_AXI_ADDR_WIDTH                 (C_S_AXI_ADDR_WIDTH),
