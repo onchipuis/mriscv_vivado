@@ -2,8 +2,8 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Wed Apr  5 10:52:57 2017
-# Process ID: 5245
+# Start of session at: Wed Apr  5 11:35:16 2017
+# Process ID: 7700
 # Current directory: /home/generic/Arquitectura/mriscv_vivado
 # Command line: vivado
 # Log file: /home/generic/Arquitectura/mriscv_vivado/vivado.log
@@ -11,56 +11,26 @@
 #-----------------------------------------------------------
 start_gui
 open_project /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.xpr
-INFO: [Project 1-313] Project file moved from '/home/cduran/verilog/to_git/mriscv_vivado' since last save.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi_mul.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi_mul.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_memory_interface.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_memory_interface.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_instruction_decoder.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_instruction_decoder.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_fsm.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_fsm.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_datapath.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_datapath.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_alu.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_alu.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi_adapter.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi_adapter.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32.v'.
-CRITICAL WARNING: [Project 1-311] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi.v', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi_mul.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_memory_interface.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_instruction_decoder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_fsm.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_datapath.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_alu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi_adapter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi.v'.
 Scanning sources...
 Finished scanning sources
-WARNING: [filemgmt 56-2] impl_1 strategy "Vivado Implementation Defaults," step write_bitstream, attribute : Could not find the file '/home/generic/Arquitectura/mriscv_vivado/shit.tcl', nor could it be found using path '/home/cduran/verilog/to_git/mriscv_vivado/shit.tcl'.
-INFO: [Project 1-230] Project 'mriscv_vivado.xpr' upgraded for this version of Vivado.
+WARNING: [filemgmt 56-3] impl_1 strategy "Vivado Implementation Defaults," step write_bitstream, attribute : Could not find the file '/home/generic/Arquitectura/mriscv_vivado/shit.tcl'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
-WARNING: [IP_Flow 19-2162] IP 'ddr_axi' is locked:
-* IP definition 'Memory Interface Generator (MIG 7 Series) (2.4)' for IP 'ddr_axi' (customized with software release 2015.4) has a newer major version in the IP Catalog.
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
-* IP definition 'Clocking Wizard (5.2)' for IP 'clk_wiz_0' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
-* The IP Data in the repository is incompatible with the current instance (despite having identical Version and Revision). You will need to upgrade the IP before viewing the customization and generating outputs.
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-WARNING: [IP_Flow 19-2162] IP 'ddr' is locked:
-* IP definition 'Memory Interface Generator (MIG 7 Series) (2.4)' for IP 'ddr' (customized with software release 2015.4) has a newer major version in the IP Catalog.
-Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 5860.730 ; gain = 113.273 ; free physical = 722 ; free virtual = 6346
-report_ip_status -name ip_status 
-upgrade_ip -srcset ddr [get_ips  {ddr ddr_axi clk_wiz_0}] -log ip_upgrade.log
-Upgrading 'clk_wiz_0'
-INFO: [Project 1-386] Moving file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
-INFO: [IP_Flow 19-1972] Upgraded clk_wiz_0 from Clocking Wizard 5.2 to Clocking Wizard 5.3
-WARNING: [IP_Flow 19-4707] Upgraded port order differs after port 'reset'
-WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'clk_wiz_0'. These changes may impact your design.
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
-CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'IP clk_wiz_0' has identified issues that may require user intervention. Please review the upgrade log '/home/generic/Arquitectura/mriscv_vivado/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
-Upgrading 'ddr'
-INFO: [Project 1-386] Moving file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr/ddr.xci' from fileset 'ddr' to fileset 'sources_1'.
-INFO: [IP_Flow 19-1972] Upgraded ddr from Memory Interface Generator (MIG 7 Series) 2.4 to Memory Interface Generator (MIG 7 Series) 4.0
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ddr'...
-Upgrading 'ddr_axi'
-INFO: [Project 1-386] Moving file '/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/ip/ddr_axi/ddr_axi.xci' from fileset 'ddr_axi' to fileset 'sources_1'.
-INFO: [IP_Flow 19-1972] Upgraded ddr_axi from Memory Interface Generator (MIG 7 Series) 2.4 to Memory Interface Generator (MIG 7 Series) 4.0
-INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ddr_axi'...
-INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/generic/Arquitectura/mriscv_vivado/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 6018.375 ; gain = 148.023 ; free physical = 555 ; free virtual = 6163
-export_ip_user_files -of_objects [get_ips {ddr ddr_axi clk_wiz_0}] -no_script -sync -force -quiet
-can't read "mmcm_bufgcediv2": no such variable
-add_files -norecurse {/home/generic/Arquitectura/mriscv_vivado/mriscvcore/IRQ/IRQ.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/MEMORY_INTERFACE/MEMORY_INTERFACE.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/mriscvcore.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/MULT/MULT.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/UTILITIES/UTILITY.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/ALU/ALU.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/REG_FILE/REG_FILE.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/DECO_INSTR/DECO_INSTR.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/FSM/FSM.v}
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 5862.273 ; gain = 110.668 ; free physical = 952 ; free virtual = 6583
+remove_files  -fileset sim_1 /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sim_1/imports/picorv32/testbench.v
+file delete -force /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sim_1/imports/picorv32/testbench.v
+remove_files  {/home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi_mul.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_memory_interface.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_instruction_decoder.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_fsm.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_datapath.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_alu.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi_adapter.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi.v}
+file delete -force /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi_mul.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_pcpi.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_memory_interface.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_instruction_decoder.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_fsm.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_datapath.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_alu.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi_adapter.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32.v /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.srcs/sources_1/imports/picorv32/picorv32_axi.v
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Apr  5 11:28:59 2017...
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  5 11:37:25 2017...

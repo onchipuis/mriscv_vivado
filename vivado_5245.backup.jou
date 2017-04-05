@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr  5 10:52:57 2017
+# Process ID: 5245
+# Current directory: /home/generic/Arquitectura/mriscv_vivado
+# Command line: vivado
+# Log file: /home/generic/Arquitectura/mriscv_vivado/vivado.log
+# Journal file: /home/generic/Arquitectura/mriscv_vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/generic/Arquitectura/mriscv_vivado/mriscv_vivado.xpr
+report_ip_status -name ip_status 
+upgrade_ip -srcset ddr [get_ips  {ddr ddr_axi clk_wiz_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {ddr ddr_axi clk_wiz_0}] -no_script -sync -force -quiet
+add_files -norecurse {/home/generic/Arquitectura/mriscv_vivado/mriscvcore/IRQ/IRQ.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/MEMORY_INTERFACE/MEMORY_INTERFACE.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/mriscvcore.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/MULT/MULT.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/UTILITIES/UTILITY.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/ALU/ALU.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/REG_FILE/REG_FILE.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/DECO_INSTR/DECO_INSTR.v /home/generic/Arquitectura/mriscv_vivado/mriscvcore/FSM/FSM.v}
