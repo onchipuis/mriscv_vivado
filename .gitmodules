@@ -1,0 +1,3 @@
+[submodule "mriscvcore"]
+	path = mriscvcore
+	url = https://github.com/onchipuis/mriscvcore.git
