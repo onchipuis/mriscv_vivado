@@ -10,9 +10,9 @@
 #define RVTEST_RV32U
 #define TESTNUM x28
 /*#define DIR_PRINT 0x10000000*/	/* For SPI-OUT*/
-#define DIR_PRINT 0x0000432C	/* For UART*/
-/*#define DIR_PRINT 0x00004600*/	/* For SEGMENT*/
-#define IRQ_ADDR 0x00004370
+#define DIR_PRINT 0x1000432C	/* For UART*/
+/*#define DIR_PRINT 0x10004600*/	/* For SEGMENT*/
+#define IRQ_ADDR 0x10004370
 
 #define RVTEST_CODE_BEGIN		\
 	.text;				\
