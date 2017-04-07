@@ -134,7 +134,7 @@ STARTUPE2_inst (
                 waddr <= waddr;
                 wassert[0] <= 1'b0;
             end else if(axi_awvalid) begin
-                waddr <= axi_awaddr | 32'h000002000; // Workaround for putting the .bit in the 0x0 position (relative to ROM)
+                waddr <= axi_awaddr | 32'h000800000; // Workaround for putting the .bit in the 0x0 position (relative to ROM)
                 wassert[0] <= 1'b1;
             end else begin
                 waddr <= waddr;

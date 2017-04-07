@@ -29,8 +29,8 @@ module axi4_interconnect #
 	slaves are excluyent, because if you use tri-state 
 	addressing, there will have problems.
 	*/
-	parameter [slaves*sword-1:0] addr_mask = {32'h00000000,32'h0000001F,32'h000001FF,32'h000001FF,32'h00000001,32'h7FFFFFFF,32'h00001FFF,32'h00000FFF},
-	parameter [slaves*sword-1:0] addr_use  = {32'h10000000,32'h00004600,32'h00004200,32'h00004000,32'h00005000,32'h80000000,32'h00000000,32'h00010000}
+	parameter [slaves*sword-1:0] addr_mask = {32'h00000000,32'h0000001F,32'h000001FF,32'h000001FF,32'h00000001,32'h7FFFFFFF,32'h007FFFFF,32'h00000FFF},
+	parameter [slaves*sword-1:0] addr_use  = {32'h10000000,32'h10004600,32'h10004200,32'h10004000,32'h10005000,32'h80000000,32'h00000000,32'h00800000}
 	)
 
 	(
