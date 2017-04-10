@@ -4,7 +4,8 @@
 module AXI_DDR2_MIG(
       // Common
       input         CLK,                // system clock
-	  input			CLK_200MHZ,
+      input			    CLK_333MHZ,
+      input			    CLK_200MHZ,
       input         RST,              // active high system reset
       
       // AXI-4 SLAVE Interface
@@ -362,7 +363,7 @@ module AXI_DDR2_MIG(
 //    ------------------------------------------------------------------------
 //    -- DDR controller instance
 //    ------------------------------------------------------------------------
-    ddr Inst_DDR (
+    ddr2 Inst_DDR2 (
       .ddr2_dq              (ddr2_dq),
       .ddr2_dqs_p           (ddr2_dqs_p),
       .ddr2_dqs_n           (ddr2_dqs_n),
@@ -378,7 +379,8 @@ module AXI_DDR2_MIG(
       .ddr2_dm              (ddr2_dm),
       .ddr2_odt             (ddr2_odt),
       //-- Inputs
-      .sys_clk_i            (CLK_200MHZ),
+      .sys_clk_i            (CLK_333MHZ),
+      .clk_ref_i            (CLK_200MHZ),
       .sys_rst              (rstn),
       //-- user interface signals
       .app_addr             (mem_addr),

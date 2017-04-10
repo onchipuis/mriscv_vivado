@@ -70,9 +70,10 @@ module impl_axi(
 	);
 	
 	wire CLK;
-	wire CLK_64MHZ;
+	wire CLK_100MHZ_INT;
 	wire CLK_200MHZ;
-	assign CLK = CLK_64MHZ;
+	wire CLK_333MHZ;
+	assign CLK = CLK_100MHZ_INT;
 	wire RST_N;
 	assign RST_N = ~RST;
 	assign CLK_N = ~CLK;
@@ -87,7 +88,8 @@ module impl_axi(
       .clk_in1(CLK_100MHZ),
       // Clock out ports
       .clk_out1(CLK_200MHZ),
-	  .clk_out2(CLK_64MHZ),
+	    .clk_out2(CLK_100MHZ_INT),
+	    .clk_out3(CLK_333MHZ),
       // Status and control signals
       .reset(RST_CLK),
       .locked()
@@ -105,7 +107,7 @@ module impl_axi(
 	// Internals
 	wire PICORV_RST;				// Picorv RST
 	wire PICORV_RST_ALL;
-	assign PICORV_RST_ALL = PICORV_RST & RST;
+	assign PICORV_RST_ALL = /*PICORV_RST &*/ RST;
 	wire [31:0] irq;				// The IRQ
 	wire [GPIO_IRQ-1:0] CORE_IRQ;	// IRQ from GPIO
 	wire [GPIO_PINS-1:0] GPIO_PinIn;		// Pin in data
@@ -394,7 +396,7 @@ module impl_axi(
         .A(AXI_SP32B1024_A),
         .D(AXI_SP32B1024_D)
     );
-    // THIS IS A STANDARD CELL! YOU IDIOT!
+    // Replacement to the SP32B1024
     SP32B1024 SP32B1024_INT(
     .Q        (AXI_SP32B1024_Q),
     .CLK    (CLK),
@@ -437,6 +439,7 @@ module impl_axi(
 	AXI_DDR2_MIG inst_AXI_DDR2_MIG(
 		.CLK(CLK),
 		.CLK_200MHZ(CLK_200MHZ),
+		.CLK_333MHZ(CLK_333MHZ),
 		.RST(RST),
 		.axi_awvalid(s_axi_awvalid[2]),
 		.axi_awready(s_axi_awready[2]),
