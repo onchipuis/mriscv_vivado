@@ -206,21 +206,21 @@ module ddr2_mig #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = -2147483647,
+   parameter CLKIN_PERIOD          = 3000,
                                      // Input Clock Period
-   parameter CLKFBOUT_MULT         = 0,
+   parameter CLKFBOUT_MULT         = 4,
                                      // write PLL VCO multiplier
-   parameter DIVCLK_DIVIDE         = 0,
+   parameter DIVCLK_DIVIDE         = 1,
                                      // write PLL VCO divisor
    parameter CLKOUT0_PHASE         = 0.0,
                                      // Phase for PLL output clock (CLKOUT0)
-   parameter CLKOUT0_DIVIDE        = 0,
+   parameter CLKOUT0_DIVIDE        = 2,
                                      // VCO output divisor for PLL output clock (CLKOUT0)
-   parameter CLKOUT1_DIVIDE        = 0,
+   parameter CLKOUT1_DIVIDE        = 4,
                                      // VCO output divisor for PLL output clock (CLKOUT1)
-   parameter CLKOUT2_DIVIDE        = 0,
+   parameter CLKOUT2_DIVIDE        = 64,
                                      // VCO output divisor for PLL output clock (CLKOUT2)
-   parameter CLKOUT3_DIVIDE        = 0,
+   parameter CLKOUT3_DIVIDE        = 16,
                                      // VCO output divisor for PLL output clock (CLKOUT3)
    parameter MMCM_VCO              = 1200,
                                      // Max Freq (MHz) of MMCM VCO

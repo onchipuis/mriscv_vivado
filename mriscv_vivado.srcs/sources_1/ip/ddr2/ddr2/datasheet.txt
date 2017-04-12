@@ -29,11 +29,11 @@ Extended FPGA Options:
 Controller Options :
    Memory                        : DDR2_SDRAM
    Interface                     : NATIVE
-   Design Clock Frequency        : 3000 ps (333.33 MHz)
+   Design Clock Frequency        : 3000 ps (  0.00 MHz)
    Phy to Controller Clock Ratio : 4:1
-   Input Clock Period            : 0 ps
-   CLKFBOUT_MULT (PLL)           : 0
-   DIVCLK_DIVIDE (PLL)           : 0
+   Input Clock Period            : 3000 ps
+   CLKFBOUT_MULT (PLL)           : 4
+   DIVCLK_DIVIDE (PLL)           : 1
    VCC_AUX IO                    : 1.8V
    Memory Type                   : Components
    Memory Part                   : MT47H64M16HR-25E
@@ -44,6 +44,10 @@ Controller Options :
    ORDERING                      : Strict
 
 AXI Parameters :
+   Data Width                    : 128
+   Arbitration Scheme            : RD_PRI_REG
+   Narrow Burst Support          : 0
+   ID Width                      : 4
 
 Memory Options:
    Burst Length (MR0[1:0])          : 8

@@ -1,2 +1,0 @@
-Breakpoint File Version 1.0
-188 true /home/cduran/vivado/picorv32_vivado/picorv32_vivado.srcs/sim_1/imports/verilog/axi4_interconnect_tb.v

@@ -2,10 +2,11 @@
 Configuration Memory information
 ===================================
 File Format        MCS
-Interface          SMAPX8
+Interface          SPIX1
 Size               16M
 Start Address      0x00000000
 End Address        0x00FFFFFF
 
 Addr1         Addr2         Date                    File(s)
-0x00000000    0x0000028B    Apr 21 13:05:26 2016    ddr2.dat
+0x00000000    0x003A607B    Apr 12 02:42:16 2017    ./mriscv_vivado.runs/impl_1/impl_axi_fpga.bit
+0x00800000    0x008005A7    Apr 10 12:35:03 2017    ./add.dat

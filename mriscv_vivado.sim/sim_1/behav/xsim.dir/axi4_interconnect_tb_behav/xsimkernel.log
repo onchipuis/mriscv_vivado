@@ -1,7 +1,0 @@
-Running: xsim.dir/axi4_interconnect_tb_behav/xsimk -simmode gui -wdb axi4_interconnect_tb_behav.wdb -simrunnum 0 -socket 48995
-Design successfully loaded
-Design Loading Memory Usage: 115868 KB (Peak: 115988 KB)
-Design Loading CPU Usage: 20 ms
-Simulation completed
-Simulation Memory Usage: 259240 KB (Peak: 324776 KB)
-Simulation CPU Usage: 30 ms
