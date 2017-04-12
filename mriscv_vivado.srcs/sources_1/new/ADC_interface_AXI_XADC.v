@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module ADC_interface_AXI (
+module ADC_interface_AXI_XADC (
 //----general--input----
 	input CLK,
 	input RST,

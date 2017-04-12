@@ -1,7 +1,7 @@
 `timescale 1ps / 1ps
 
 
-module AXI_SPI_ROM#
+module AXI_SPI_ROM_EXT #
     (
     parameter              sword = 32,
     parameter            numbit_divisor = 3,    // The SCLK will be CLK/2^(numbit_divisor-1)
@@ -308,46 +308,46 @@ STARTUPE2_inst (
                 end
             st2_com_read: begin 
                 cap_enable = 1'b1;
-                command_data = {8'h03, raddr[23:0], 40'd0};
-                command_sync_stop = 8+24+32-1;
+                command_data = {8'h13, raddr, 32'd0};
+                command_sync_stop = 8+32+32-1;
                 end
             st3_rvalid: begin 
                 axi_rvalid = 1'b1;
                 end
             st4_com_wrt1: begin  
                 cap_enable = wstrb[0];
-                command_data = {8'h02, waddr[23:0], wdata[7:0], wdata[15:8], wdata[23:16], wdata[31:24], 8'd0};
+                command_data = {8'h12, waddr, wdata[7:0], wdata[15:8], wdata[23:16], wdata[31:24]};
                 if(wstrb[3:0] == 4'b1111)
-                    command_sync_stop = 8+24+32-1;
+                    command_sync_stop = 8+32+32-1;
                 else if(wstrb[2:0] == 3'b111)
-                    command_sync_stop = 8+24+24-1;
+                    command_sync_stop = 8+32+24-1;
                 else if(wstrb[1:0] == 2'b11)
-                    command_sync_stop = 8+24+16-1;
+                    command_sync_stop = 8+32+16-1;
                 else
-                    command_sync_stop = 8+24+8-1;
+                    command_sync_stop = 8+32+8-1;
                 end
             st5_com_wrt2: begin 
                 cap_enable = wstrb[1];
-                command_data = {8'h02, waddr[23:0]+24'd1, wdata[15:8], wdata[23:16], wdata[31:24], 16'd0};
+                command_data = {8'h12, waddr+1, wdata[15:8], wdata[23:16], wdata[31:24], 8'd0};
                 if(wstrb[3:1] == 3'b111)
-                    command_sync_stop = 8+24+24-1;
+                    command_sync_stop = 8+32+24-1;
                 else if(wstrb[2:1] == 2'b11)
-                    command_sync_stop = 8+24+16-1;
+                    command_sync_stop = 8+32+16-1;
                 else
-                    command_sync_stop = 8+24+8-1;
+                    command_sync_stop = 8+32+8-1;
                 end
             st6_com_wrt3: begin 
                 cap_enable = wstrb[2];
-                command_data = {8'h02, waddr[23:0]+24'd2, wdata[23:16], wdata[31:24], 24'd0};
+                command_data = {8'h12, waddr+2, wdata[23:16], wdata[31:24], 16'd0};
                 if(wstrb[3:2] == 2'b11)
-                    command_sync_stop = 8+24+16-1;
+                    command_sync_stop = 8+32+16-1;
                 else
-                    command_sync_stop = 8+24+8-1;
+                    command_sync_stop = 8+32+8-1;
                 end
             st7_com_wrt4: begin 
                 cap_enable = wstrb[3];
-                command_data = {8'h02, waddr[23:0]+24'd3, wdata[31:24], 32'd0};
-                command_sync_stop = 8+24+8-1;
+                command_data = {8'h12, waddr+3, wdata[31:24], 24'd0};
+                command_sync_stop = 8+32+8-1;
                 end
             st8_bvalid: begin 
                 axi_bvalid = 1'b1;
